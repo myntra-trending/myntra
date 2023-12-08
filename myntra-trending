@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Message</title>
+    <style>
+        body {
+            background-color: #4CAF50; /* Pleasant Green Color */
+            color: #FFFFFF; /* White Text Color */
+            font-family: 'Courier New', monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        p {
+            font-weight: bold;
+        }
+
+        .emojis {
+            font-size: 2em;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>I love you so very much! Will you be mine?</p>
+        <div class="emojis">&#x1F48D; &#x1F33A; &#x2764;</div>
+    </div>
+</body>
+
+</html>
